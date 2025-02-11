@@ -54,7 +54,8 @@ export class DataverseClient {
         "OData-Version": "4.0",
         "OData-MaxVersion": "4.0",
         "Accept": "application/json",
-        "Content-Type": "application/json; charset=utf-8"
+        "Content-Type": "application/json; charset=utf-8",
+        "Prefer": "odata.include-annotations=*"
     };
 
     private readonly preferRepresentationHeaders = {
