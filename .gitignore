@@ -21,6 +21,6 @@ node_modules/
 .pnp.*
 
 # Primno
-dist/
+#sdist/
 build/
 .nyc_output
